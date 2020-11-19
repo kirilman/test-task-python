@@ -1,7 +1,6 @@
 import csv, json
 from xml.etree import ElementTree
 
-
 def get_n(file_reader):
     l = list(filter(lambda x: x[0] == 'D', file_reader.fieldnames))
     return len(l)

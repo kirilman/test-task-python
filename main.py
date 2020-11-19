@@ -31,4 +31,5 @@ file.close()
 preprocessing_json_file(data, fields, writer)
 preprocessing_xml_file('xml_data.xml', fields, writer)
 
+
 out_f.close()
